@@ -23,7 +23,7 @@
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
     margin-inline: auto;
-    border: solid violet;
+   /* border: solid violet;*/
 }
 
 .desktop-only {
@@ -39,9 +39,18 @@
     display: flex;
 }
 
+.items-center {
+    align-items: center;
+}
+
 .gap-1 {
     gap: 1rem;
 }
+
+.gap-1\.5 {
+/*Obs: para colocar gap-1.5, tenho que usar a barra, porque "." faz parte do inicio da classe*/
+gap: 1.5rem;
+} 
 
 .grid {
     display: grid;
