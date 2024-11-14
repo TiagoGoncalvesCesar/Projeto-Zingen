@@ -1,8 +1,7 @@
-
 #about {
-    background-color: var(--surface-color);
+  background-color: var(--surface-color);
 
-    & .eve-colums {
-        gap: 2rem;
-    }
+  & .eve-colums {
+    gap: 2rem;
+  }
 }

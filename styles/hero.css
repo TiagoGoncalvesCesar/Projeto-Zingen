@@ -12,10 +12,10 @@
     & p {
         font: var(--fw-md) var(--fs-lg)/1.4 var(--ff-sans);
         color: var(--text-color-sendary);
-        margin-top: 0.5rem;
+        margin-top: 0.5rem;  
     }
 
-    .buttons {
+    & .buttons {
         justify-content: center;
         margin-top: 2rem;
     }
